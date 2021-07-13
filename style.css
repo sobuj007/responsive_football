@@ -145,6 +145,13 @@ a {
 
 }
 
+.watch_button:hover {
+  background-color: rgb(228, 64, 64);
+  
+  
+
+}
+
 .fa-arrow-right {
     margin-left: 10px;
 
