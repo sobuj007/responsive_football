@@ -2,15 +2,91 @@
 /* poppins fonts */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
 
+  /* defult property */
 *{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
 }
-
-
+a{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+/* .......................Header area ............................................*/
 .football_header_area{
-    background-color: 2D25A0;
+    background-color: #2D25A0;
     height: 100vh;
+  
     display: flex;
     justify-content: center;
-    align-items: center;
+
 }
+.container{
+    width: 1160px;
+    display: flex;
+    flex-direction: column;
+}
+.menu_area{
+    display: flex;
+    
+}
+.football_menu{
+    height: 44px;
+    display: flex;
+    justify-content: space-between;
+    padding: 42px 0px;
+}
+.football_menu .menu_area{
+  
+  padding: 10px 0px;
+    
+}
+.football_menu .menu_area ul{
+    list-style: none;
+    display: block;
+      
+  }
+  .football_menu .menu_area ul li{
+   display: inline-block;
+      
+  }
+  .football_menu .menu_area ul li a{
+      padding: 10px 15px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+       
+   }
+
+/* loginButton */
+.login_button{
+    background-color: #E02C6D;
+    height: 44px;
+    width: 123px;
+
+}
+.football_menu .login_button ul{
+    list-style: none;
+    display: block;
+      
+  }
+  .football_menu .login_button ul li{
+   display: inline-block;
+      
+  }
+ 
+  .football_menu .login_button ul li a{
+     
+      padding: 5px 10px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+       
+   }
+   .fa-sign-in-alt{
+    padding: 15px 15px;
+    
+    font-size: 16px;
+     
+ }
