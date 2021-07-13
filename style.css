@@ -1,0 +1,16 @@
+/* This sheet for Football project CSS */
+/* poppins fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700;800&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.football_header_area{
+    background-color: 2D25A0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
