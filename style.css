@@ -294,7 +294,7 @@ a {
     flex-direction: column;
     padding: 20px;
     box-shadow: 0 4px 8px 0 rgba(219, 218, 218, 0.767), 0 6px 20px 0 rgba(238, 238, 238, 0.623);
-    transition: height 2s,  transform 4s ease;
+    transition: all 4s ease-in-out;
 }
 
 
@@ -324,7 +324,7 @@ a {
     line-height: 28px;
     border-radius: 15px;
     border: 1px solid rgb(117, 117, 117);
-    transition: .5s ease-in-out all;
+    transition: all 4s ease-in-out;
 }
 
 .product:hover a:hover {
