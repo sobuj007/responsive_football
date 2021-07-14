@@ -1,6 +1,6 @@
 /* This Sheet for Resposive Style */
 
-/* ipad Style */
+/* ......................ipad Style .................*/
 @media only screen and (min-width:689px ) and (max-width:992px) {
     .football_players {
         display: grid;
@@ -27,10 +27,82 @@
     .left_text_area {
         width: 90%;
         margin: 30px 0px;
-        /* margin-left: 30px; */
-        /* margin-right: 5px; */
+      
     }
     .right_img_area {
         width: 90%; 
+    }
+}
+
+
+/* ......................iPhone Style........................... */
+@media only screen and (max-width:688px) {
+    /* ......................Banner Area........................... */
+    .football_players {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .football_header_area {
+        background-color: #2D25A0;
+        height: 630px;
+        display: flex;
+        justify-content: center;
+    }
+    .football_menu {
+        height: 44px;
+        display: none;
+     
+    }
+
+    .football_hero_area {
+        margin: 0px 20px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .left_text_content{
+        margin: 30px 0px;
+    }
+    .left_text_content h2 {
+        font-size: 36px;
+        color: white;
+        font-weight: 700;
+        line-height: 50px;
+    }
+/* ......................player Blog Style........................... */
+    .football_player {
+        width: 300px;
+        height: 474px;
+        box-shadow: 0 4px 8px 0 rgba(219, 218, 218, 0.596), 0 6px 20px 0 rgba(230, 225, 225, 0.5);
+        border: 0px;
+        padding: 20px;
+    }
+
+    /* ......................Match Highlight Style........................... */
+    .football_highlight_area .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .left_text_area h2 {
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .left_text_area {
+        width: 90%;
+        margin: 30px 0px;
+      
+    }
+    .right_img_area {
+        width: 90%; 
+    }
+    /* ......................footter  Style........................... */
+    .footer_img_area img {
+        width: 315px;
+        height: 115px;
+        margin-bottom: 20px;
     }
 }
