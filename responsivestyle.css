@@ -2,4 +2,35 @@
 
 /* ipad Style */
 @media only screen and (min-width:689px ) and (max-width:992px) {
+    .football_players {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .football_header_area {
+        background-color: #2D25A0;
+        height: 630px;
+        display: flex;
+        justify-content: center;
+    }
+    .football_hero_area {
+        margin: 0px 20px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .football_highlight_area .container {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .left_text_area {
+        width: 90%;
+        margin: 30px 0px;
+        /* margin-left: 30px; */
+        /* margin-right: 5px; */
+    }
+    .right_img_area {
+        width: 90%; 
+    }
 }
