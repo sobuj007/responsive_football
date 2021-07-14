@@ -302,7 +302,8 @@ a {
     box-shadow: 0 4px 8px 0 rgba(143, 143, 143, 0.466), 0 6px 20px 0 rgba(150, 150, 150, 0.5);
 }
 
-.product:hover img {
+.product:hover img{
+    
 
     transform: scale(1.1);
 
