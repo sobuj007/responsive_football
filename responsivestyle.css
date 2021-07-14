@@ -2,6 +2,8 @@
 
 /* ......................ipad Style .................*/
 @media only screen and (min-width:689px ) and (max-width:992px) {
+
+      /* ......................Players Style........................... */
     .football_players {
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -12,17 +14,20 @@
         width: 310px;
        
     }
+      /* ......................Header Style........................... */
     .football_header_area {
         background-color: #2D25A0;
         height: 630px;
         display: flex;
         justify-content: center;
     }
+      /* ......................Banner Style........................... */
     .football_hero_area {
         margin: 0px 20px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+      /* ......................Match Highlight Style........................... */
     .football_highlight_area .container {
         display: flex;
         flex-direction: column;
@@ -36,7 +41,7 @@
     .right_img_area {
         width: 90%; 
     }
-
+  /* ......................Footer Style........................... */
     .football_products .container {
         flex-direction: column;
         display: flex;
@@ -124,6 +129,8 @@
         margin-bottom: 50px;
         line-height: 40px;
     }
+
+      /* ......................Product Style........................... */
     .products {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
