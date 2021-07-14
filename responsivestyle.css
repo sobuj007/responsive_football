@@ -8,6 +8,10 @@
         column-gap: 30px;
         row-gap: 30px;
     }
+    .football_player {
+        width: 310px;
+       
+    }
     .football_header_area {
         background-color: #2D25A0;
         height: 630px;
@@ -31,6 +35,22 @@
     }
     .right_img_area {
         width: 90%; 
+    }
+
+    .football_products .container {
+        flex-direction: column;
+        display: flex;
+    }
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+    .product a {
+      background-color: #E02C6D;
+        color: rgb(255, 255, 255);
+        
     }
 }
 
